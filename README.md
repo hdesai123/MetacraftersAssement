@@ -6,18 +6,18 @@ In this assessment we see how to create a token by using the solidity language. 
 
 ## Description
 
-The solidity code has three variables and two functions. The functions mint and burn generates and deletes tokens respectively.
+The solidity code has three variables and two functions. The functions mint and burn generate and delete tokens respectively.
 
 ### Executing program
 
-Just run the code in the RemixIDE and compile and deploye it.
+Just run the code in the RemixIDE and compile and deploy it.
 
 
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
 /*
-       REQUIREMENTS
+     REQUIREMENTS
     
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
     
