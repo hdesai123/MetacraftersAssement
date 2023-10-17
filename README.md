@@ -15,6 +15,7 @@ Just run the code in the RemixIDE and compile and deploye it.
 
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
+
 /*
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
