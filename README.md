@@ -35,6 +35,7 @@ pragma solidity 0.8.18;
 */
 
 contract MyToken {
+    
     // public variables here
     string public tokenname = "ADARSH"; 
     string public tokenAbbrv = "ADR"; 
@@ -46,6 +47,7 @@ contract MyToken {
         totalSupply += _value; 
         balances[_address] += _value;
     }
+    
     // burn function
     function burn (address _address, uint _value) public { 
         if (balances[_address] >= _value) {
